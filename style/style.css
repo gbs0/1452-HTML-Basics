@@ -1,0 +1,44 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.container {
+  text-align: center;
+  width: 600px;
+  margin: 100px auto;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border: #212121 solid 0.5px;
+  background-color: white;
+}
+
+.button {
+  transition: .8s;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #212121;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.button:hover {
+  transition-duration: .8s;
+  background-color: #9c9c9c;
+  color: rgb(51, 51, 51);
+}
+
+.link i {
+  transition: .8s;
+  font-size: 50px;
+  color: purple;
+}
+
+.link i:hover {
+  transition-duration: .8s;
+  color: green;
+}
